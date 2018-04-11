@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
-  colors = ["red", "green", "blue", "purple"]
+  array = ["red", "green", "blue", "purple"]
 end
 
 def add_element_to_end_of_array(array, element)
-  colors << "orange"
+  array << "orange"
 end
 
 def add_element_to_start_of_array(array, element)
-  colors.unshift("white")
+  array.unshift("white")
 end
 
 def remove_element_from_end_of_array(array)
-  colors.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  colors.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
